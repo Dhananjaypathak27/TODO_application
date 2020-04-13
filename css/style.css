@@ -1,0 +1,26 @@
+.con{
+    margin: 0 auto;
+    width: 50%;
+    background-color: rgb(81, 59, 211);
+    text-align: center;
+    padding: 50px;
+}
+h1{
+    width: 50%;
+    display: inline-block;
+    
+    
+}
+#list{
+    color: aliceblue;
+}
+.h11{
+    padding-left: 80px;
+}
+#removeall{
+    margin-top: 7px;
+}
+#userinput{
+    display: inline-block;
+    width: 80%;
+}
