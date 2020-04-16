@@ -113,7 +113,7 @@ body{
     padding-bottom: 10px;
     word-break: break-word;
 }
-@media(max-width: 786px) {
+@media(max-width: 786px){
     body {
       background-color: black;
     }
