@@ -8,26 +8,27 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script src="js/bouncethis.min.js"></script>
+<!-- <script src="js/bouncethis.min.js"></script> -->
 
 
 
 <script src="js/script.js"></script>
 <link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
 <title>Title</title>
 </head>
 <body>
-<div class="container-fluid p-3 text-center">
+<!-- <div class="container-fluid p-3 text-center">
     <div class="con">
         <div class="row">
-            <div class="col-md-8 h11" ><h1>MY TODO</h1></div>
+            <div class="col-md-8 col-sm-12 h11">my todo</div>
             
-            <div class="col-md-4" ><button class="btn btn-light" id="removeall">REMOVE ADD TODO</button></div>    
+            <div class="col-md-4 col-xs-12" ><button class="btn btn-light" id="removeall">REMOVE ADD TODO</button></div>    
         </div>
         
         
-        <input type="text" class="form-control" id="userinput" placeholder="what's on your mind"  >
-        <!-- onkeydown="return serchKeyPress(event);" -->
+        <input type="text" class="form-control col-xs-12" id="userinput" placeholder="what's on your mind"  >
+        onkeydown="return serchKeyPress(event);" 
         
 
         <button class="btn btn-success" id="add">Add a TODO</button>
@@ -46,8 +47,8 @@
         
     </div>
 </div>
-<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script> -->
-<script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script> -->
+<!-- <script>
     $(function() {
     $('#header').bounceThis({
     bounceHeight  : '20px',
@@ -55,8 +56,44 @@
     delay         : 400
     });
     });
-    </script>
+    </script> -->
+
+<div class="container-fluid bg-dark p-0 text-center con">
+    <div class="row">
+        <div class="col-lg-8 col-12 text-center backgoundcontainer">
+            <div class="row rowStyle">
+                <div class="col-lg-8 col-sm-8 col-xs-8 col-8">
+                    <h1 class="animated bounceInLeft"><strong>MY TODO</strong></h1>
+                </div>
+                <div class="col-lg-4 col-sm-4 col-xs-4 col-4 rmbtnclass">
+                    <button id="removeall">REMOVE ALL</button>
+                </div>
+            </div>
+
+            <div class="row pb-2">
+                <div class="col-lg-8 col-sm-8 col-xs-8 col-8">
+                    <input type="text" class="form-control ml-3 col-xs-12" id="userinput" placeholder="what's on your mind">
+                     <!-- onkeydown="return serchKeyPress(event);" -->
+                </div>
+                <div class="col-lg-4 col-sm-4 mt-0 col-xs-4 col-4 rmbtnclass">
+                    <button id="add">  ADD TODO  </button>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="con1">
+                    <ul id="list">
+                        <!-- <li id="listItem">my first todo <button id='removeMe' class="btn btn-dark p-0">&times;</button></li> -->
+                    </ul>
+                </div>
+            </div>
+             
+
+        </div>
+    </div>
+    
+</div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script> -->
 </body>
 </html>
